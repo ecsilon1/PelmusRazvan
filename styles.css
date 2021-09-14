@@ -1,0 +1,487 @@
+/* Fonts sizes and styles */
+
+
+.regular-font-size{
+  font-size: 2rem;
+}
+
+.extended-font-size{
+  font-size: 3rem;
+
+}
+
+.marime {
+  font-size: 1.5rem;
+
+}
+
+
+
+
+.new-font, .navbar-brand{
+  font-family: 'Nanum Brush Script';
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.modfied-font{
+  font-family: 'Nanum Brush Script';
+  font-size: 2rem;
+
+  font-weight: bold;
+}
+
+
+
+
+.laptop{
+  height: 700px;
+  width: 100%;
+}
+
+.navbar-text{
+  text-align: left;
+}
+
+
+.beggining-text{
+  color:white;
+}
+
+/* Sa modific sau nu butonul de collapse mobil */
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+
+    box-shadow: none;
+}
+
+
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+.poza {
+  height: 378px;
+  width: auto;
+  border-radius: 20px;
+
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+
+
+#introducere {
+
+
+  text-align: center;
+
+}
+
+
+
+.btn {
+  background: #bf3060;
+  background-image: -webkit-linear-gradient(top, #bf3060, #2cb889);
+  background-image: -moz-linear-gradient(top, #bf3060, #2cb889);
+  background-image: -ms-linear-gradient(top, #bf3060, #2cb889);
+  background-image: -o-linear-gradient(top, #bf3060, #2cb889);
+  background-image: linear-gradient(to bottom, #bf3060, #2cb889);
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: Georgia;
+  color: #f5f0f0;
+  font-size: 100%;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+
+
+.icons {
+
+  font-size: 2rem;
+  margin: 30px;
+color: #ff7171;
+
+}
+
+.icons:hover{
+  color:  #444444;
+}
+/* Various bold texts for differents hrs */
+
+.titlu {
+  padding-top: 3rem;
+
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.detalii {
+  padding-top: 1.5rem;
+  line-height: 4rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+
+.despre-mine {
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+}
+
+.projects-bold-text{
+  padding-top: 2rem;
+  line-height: 2;
+  font-weight: bold;
+font-size: 1.5rem;
+}
+
+
+
+#skiluri {
+  padding: 1rem;
+  background-color: #DCDCDC;
+  /* box-shadow: 10px 30px 100px 10px #8A2BE2 inset; */
+}
+
+.lista-skiluri {
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.container i {
+
+  font-size: 3rem;
+  padding-top: 1rem;
+
+}
+.mongodb{
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+.unelte {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.web-development {
+  height: 10rem;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.titlu-secundar {
+  padding: 1rem;
+
+}
+
+hr {
+
+  border: 1px solid blue;
+  width: 5rem;
+
+}
+
+
+
+.jquery{
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+.fa-html5{
+  color: orange;
+
+}
+.fa-css3 {
+  color: blue;
+
+}
+
+.fa-js {
+
+  color: #000;
+
+
+
+}
+
+.fa-bootstrap {
+  color: #8A2BE2;
+
+
+
+
+}
+
+
+
+
+.fa-node-js {
+  color: green;
+
+
+}
+
+
+
+
+
+
+/* Inca nu mam decis pe culori  si daca sa pastrez borderul*/
+
+#proiecte {
+  text-align: center;
+  padding: 3rem;
+  background-color: #DCDCDC;
+
+}
+
+
+.card{
+  text-align: center;
+  background-color: inherit;
+
+}
+
+.card-alteration{
+  margin-top:2rem;
+}
+
+
+
+.secondary-font{
+  font-family: 'Nanum Brush Script';
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+
+                                   /*    aici pot schimba culoare bara de navigatie */
+
+.fixed{
+
+
+  top: 0;
+ right: 0;
+}
+
+ .centrare-navigatie{
+   text-align: center;
+ }
+
+.special{
+  background-color: inherit;
+color: black;
+border: none;
+font-size: 2rem;
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .col-demiscreen {width: 50%;}
+  .col-tablets {width:14%;}
+  .col-special {width: 100%;}
+}
+
+
+@media only screen and (min-width:1000px) and (max-width: 1300px) {
+
+
+  .col-projects {width: 100%;}
+}
+
+
+.project-images{
+
+    width:  250px;
+    height: 170px;
+
+border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+.arrow-text{
+  text-align: center;
+font-size: 1.5rem;
+margin-bottom: 0;
+font-weight: lighter;
+
+}
+
+.nomargin{
+  padding-top: 4rem;
+
+}
+
+.navbar{
+  padding: 0;
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+  .arrow-down{
+    padding-top: 2rem;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 540px) {
+
+  .image-dissapear {display: none;}
+
+}
+
+@media only screen and (max-width: 540px) {
+
+  .query-align {font-size: 2rem;}
+  .laptop{
+    height: 600px;
+    width: 100%;
+  }
+
+}
+
+.border-gone{
+  border: none;
+}
+
+
+.new-font-for-developer{
+  font-family: 'Nanum Brush Script';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Arrow creation and animation */
+
+.arrow-down{
+  padding-top: 5rem;
+}
+
+
+.arrow-down span{
+  display:block;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-bottom: 5px solid #000;
+  border-right: 5px solid #000;
+  transform: rotate(45deg);
+  margin: -15px;
+  animation: animate 2s infinite;
+
+}
+
+.arrow-down span:nth-child(2){
+  animation-delay: -0.2s;
+}
+
+.arrow-down span:nth-child(3){
+  animation-delay: -0.4s;
+}
+
+@keyframes animate{
+  0%{
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: rotate(45deg) translate(20px,20px);
+  }
+}
+
+
+/* Contact me modifiers */
+
+.name_form, .email_form, .text_area {
+  padding: 5px;
+
+border: 2px solid #ffd5d5;
+border-radius: 5px;
+resize: none;
+
+box-sizing: border-box;
+width: 100%;
+}
+
+.text_area{
+  height: 150px;
+
+}
+
+#contact_me{
+  background-color: #f4f0ec;
+  padding: 3rem;
+
+}
+
+.contact_form{
+
+}
+
+.contact_title{
+margin-top: 1rem;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+color: #e96269;
+font-size: 2rem;
+padding-bottom: 1rem;
+
+}
+footer {
+    text-align: center;
+    background-color: #DCDCDC;
+    font-weight: bold;
+    padding: 1rem;
+}
