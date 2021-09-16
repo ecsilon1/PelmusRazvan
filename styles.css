@@ -317,6 +317,9 @@ font-size: 2rem;
   .col-demiscreen {width: 50%;}
   .col-tablets {width:14%;}
   .col-special {width: 100%;}
+.special-size{
+  font-size: 1.5rem;
+}
 }
 
 
