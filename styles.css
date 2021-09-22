@@ -1,64 +1,66 @@
 /* Fonts sizes and styles */
-
-
-.regular-font-size{
+.regular-font-size {
   font-size: 2rem;
 }
 
-.extended-font-size{
+.extended-font-size {
   font-size: 3rem;
-
 }
 
 .marime {
   font-size: 1.5rem;
-
 }
 
-
-
-
-.new-font, .navbar-brand{
+.new-font, .navbar-brand {
   font-family: 'Nanum Brush Script';
   font-size: 1.5rem;
   font-style: italic;
 }
 
-.modfied-font{
+.modfied-font {
   font-family: 'Nanum Brush Script';
   font-size: 2rem;
-
   font-weight: bold;
 }
 
+.despre-mine {
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+}
 
+.projects-bold-text {
+  padding-top: 2rem;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
+.new-font-for-developer {
+  font-family: 'Nanum Brush Script';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
-.laptop{
+.laptop {
   height: 700px;
   width: 100%;
 }
 
-.navbar-text{
+.navbar-text {
   text-align: left;
 }
 
-
-.beggining-text{
-  color:white;
+.beggining-text {
+  color: white;
 }
 
-/* Sa modific sau nu butonul de collapse mobil */
-
+/* Collapse button*/
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-
-    box-shadow: none;
+  box-shadow: none;
 }
-
-
-
 
 a:hover {
   text-decoration: underline;
@@ -68,7 +70,6 @@ a:hover {
   height: 378px;
   width: auto;
   border-radius: 20px;
-
   text-align: center;
   margin: auto;
   display: block;
@@ -76,17 +77,11 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-
-
 #introducere {
-
-
   text-align: center;
-
 }
 
-
-
+/* Contact form button */
 .btn {
   background: #bf3060;
   background-image: -webkit-linear-gradient(top, #bf3060, #2cb889);
@@ -114,25 +109,19 @@ a:hover {
   text-decoration: none;
 }
 
-
-
-
 .icons {
-
   font-size: 2rem;
   margin: 30px;
-color: #ff7171;
-
+  color: #ff7171;
 }
 
-.icons:hover{
-  color:  #444444;
+.icons:hover {
+  color: #444444;
 }
+
 /* Various bold texts for differents hrs */
-
 .titlu {
   padding-top: 3rem;
-
   font-style: italic;
   font-weight: bold;
   font-size: 3rem;
@@ -144,23 +133,6 @@ color: #ff7171;
   font-weight: bold;
   text-align: left;
 }
-
-
-
-.despre-mine {
-  text-align: left;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 500;
-}
-
-.projects-bold-text{
-  padding-top: 2rem;
-  line-height: 2;
-  font-weight: bold;
-font-size: 1.5rem;
-}
-
-
 
 #skiluri {
   padding: 1rem;
@@ -177,15 +149,15 @@ font-size: 1.5rem;
 }
 
 .container i {
-
-  font-size: 3rem;
-  padding-top: 1rem;
-
-}
-.mongodb{
   font-size: 3rem;
   padding-top: 1rem;
 }
+
+.mongodb {
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
 .unelte {
   text-align: center;
   font-size: 1.2rem;
@@ -201,218 +173,158 @@ font-size: 1.5rem;
 
 .titlu-secundar {
   padding: 1rem;
-
 }
 
 hr {
-
   border: 1px solid blue;
   width: 5rem;
-
 }
 
-
-
-.jquery{
+.jquery {
   font-size: 3rem;
   padding-top: 1rem;
 }
 
-.fa-html5{
+.fa-html5 {
   color: orange;
-
 }
+
 .fa-css3 {
   color: blue;
-
 }
 
 .fa-js {
-
   color: #000;
-
-
-
 }
 
 .fa-bootstrap {
   color: #8A2BE2;
-
-
-
-
 }
-
-
-
 
 .fa-node-js {
   color: green;
-
-
 }
 
-
-
-
-
-
 /* Inca nu mam decis pe culori  si daca sa pastrez borderul*/
-
 #proiecte {
   text-align: center;
   padding: 3rem;
   background-color: #DCDCDC;
-
 }
 
-
-.card{
+.card {
   text-align: center;
   background-color: inherit;
-
 }
 
-.card-alteration{
-  margin-top:2rem;
+.card-alteration {
+  margin-top: 2rem;
 }
 
-
-
-.secondary-font{
+.secondary-font {
   font-family: 'Nanum Brush Script';
   font-size: 3.5rem;
   font-weight: bold;
   text-align: center;
 }
 
-
-
-
-
-                                   /*    aici pot schimba culoare bara de navigatie */
-
-.fixed{
-
-
+/*    aici pot schimba culoare bara de navigatie */
+.fixed {
   top: 0;
- right: 0;
+  right: 0;
 }
 
- .centrare-navigatie{
-   text-align: center;
- }
+.centrare-navigatie {
+  text-align: center;
+}
 
-.special{
+.special {
   background-color: inherit;
-color: black;
-border: none;
-font-size: 2rem;
-
-
+  color: black;
+  border: none;
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 1000px) {
+  .col-demiscreen {
+    width: 50%;
+  }
 
-  .col-demiscreen {width: 50%;}
-  .col-tablets {width:14%;}
-  .col-special {width: 100%;}
-.special-size{
-  font-size: 1.5rem;
-}
-}
+  .col-tablets {
+    width: 14%;
+  }
 
+  .col-special {
+    width: 100%;
+  }
+}
 
 @media only screen and (min-width:1000px) and (max-width: 1300px) {
-
-
-  .col-projects {width: 100%;}
+  .col-projects {
+    width: 100%;
+  }
 }
 
-
-.project-images{
-
-    width:  250px;
-    height: 170px;
-
-border: 1px solid #ddd;
+.project-images {
+  width: 250px;
+  height: 170px;
+  border: 1px solid #ddd;
   border-radius: 4px;
   text-align: center;
   display: block;
   margin: auto;
 }
 
-
-
-
-
-
-.arrow-text{
+.arrow-text {
   text-align: center;
-font-size: 1.5rem;
-margin-bottom: 0;
-font-weight: lighter;
-
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-weight: lighter;
 }
 
-.nomargin{
+.nomargin {
   padding-top: 4rem;
-
 }
 
-.navbar{
+.navbar {
   padding: 0;
-
 }
 
-
-
+/* Media quaries */
 @media only screen and (min-width: 1200px) {
-
-  .arrow-down{
+  .arrow-down {
     padding-top: 2rem;
   }
-
-}
-
-
-
-@media only screen and (max-width: 540px) {
-
-  .image-dissapear {display: none;}
-
 }
 
 @media only screen and (max-width: 540px) {
+  .image-dissapear {
+    display: none;
+  }
+}
 
-  .query-align {font-size: 2rem;}
-  .laptop{
+@media only screen and (max-width: 540px) {
+  .query-align {
+    font-size: 2rem;
+  }
+
+  .laptop {
     height: 600px;
     width: 100%;
   }
-
 }
 
-.border-gone{
+.border-gone {
   border: none;
 }
 
-
-.new-font-for-developer{
-  font-family: 'Nanum Brush Script';
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
 /* Arrow creation and animation */
-
-.arrow-down{
+.arrow-down {
   padding-top: 5rem;
 }
 
-
-.arrow-down span{
-  display:block;
+.arrow-down span {
+  display: block;
   width: 1.7rem;
   height: 1.7rem;
   border-bottom: 5px solid #000;
@@ -420,71 +332,62 @@ font-weight: lighter;
   transform: rotate(45deg);
   margin: -15px;
   animation: animate 2s infinite;
-
 }
 
-.arrow-down span:nth-child(2){
+.arrow-down span:nth-child(2) {
   animation-delay: -0.2s;
 }
 
-.arrow-down span:nth-child(3){
+.arrow-down span:nth-child(3) {
   animation-delay: -0.4s;
 }
 
-@keyframes animate{
-  0%{
+@keyframes animate {
+  0% {
     opacity: 0;
-    transform: rotate(45deg) translate(-20px,-20px);
+    transform: rotate(45deg) translate(-20px, -20px);
   }
-  50%{
+
+  50% {
     opacity: 1;
   }
-  100%{
+
+  100% {
     opacity: 0;
-    transform: rotate(45deg) translate(20px,20px);
+    transform: rotate(45deg) translate(20px, 20px);
   }
 }
 
-
 /* Contact me modifiers */
-
 .name_form, .email_form, .text_area {
   padding: 5px;
-
-border: 2px solid #ffd5d5;
-border-radius: 5px;
-resize: none;
-
-box-sizing: border-box;
-width: 100%;
+  border: 2px solid #ffd5d5;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-.text_area{
+.text_area {
   height: 150px;
-
 }
 
-#contact_me{
+#contact_me {
   background-color: #f4f0ec;
   padding: 3rem;
-
 }
 
-.contact_form{
-
-}
-
-.contact_title{
-margin-top: 1rem;
+.contact_title {
+  margin-top: 1rem;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-color: #e96269;
-font-size: 2rem;
-padding-bottom: 1rem;
-
+  color: #e96269;
+  font-size: 2rem;
+  padding-bottom: 1rem;
 }
+
 footer {
-    text-align: center;
-    background-color: #DCDCDC;
-    font-weight: bold;
-    padding: 1rem;
+  text-align: center;
+  background-color: #DCDCDC;
+  font-weight: bold;
+  padding: 1rem;
 }
